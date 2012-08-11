@@ -74,7 +74,6 @@ class db
         }
         // Turn off PDO Exceptions, as we are handling exceptions with dbException
         $this->pdoHandle->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_SILENT);
-        $this->queryMethod = $method;
     }
 
     public function runQuery($query, $values = array())
