@@ -1,0 +1,9 @@
+Database:
+    PDO_DISABLED = 5
+    CONNECTION_ERROR = 4
+    QUERY_FAILURE = 3
+
+Module:
+    LOAD_FAILURE = 2
+
+UNKNOWN = 0

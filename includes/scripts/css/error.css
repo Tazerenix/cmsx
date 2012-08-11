@@ -1,0 +1,73 @@
+* 
+{
+    margin:0;
+    padding:0;
+}
+
+body
+{
+    background-color:#fff;
+    font-family:Geneva,Arial,Helvetica,sans-serif;
+}
+
+#error
+{
+    width:700px;
+    margin:100px auto;
+    border:1px solid #AAA;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow:  0px 0px 5px 0px #555555;
+    box-shadow:  0px 0px 5px 0px #555555;
+    background-color:#FFF;
+}
+
+#error > #header
+{
+    padding:15px;
+    background:url('images/error.png') no-repeat left center;
+    padding-left:79px;
+    margin-left:15px;
+    color:#FFF;
+    height:64px;
+    color:#000;
+    font-size:30px;
+    font-weight:bold;
+    line-height:64px;
+}
+
+#error > #header:first-letter
+{
+    text-transform: uppercase;
+}
+
+#error > #content
+{
+    margin-left:94px;
+    font-size:16px;
+    color:#000;
+    margin-bottom:15px;
+    margin-right:15px;
+}
+
+#error > #content p
+{
+    margin-bottom:15px;
+}
+
+#error > #content > div.technicalInformation
+{
+    margin-left:15px;
+    font-family:monospace !important;
+    font-size:16px;
+    color:#000;
+    margin-top:5px;
+    background-color:#EEE;
+    padding:4px;
+}
+
+#error > #content code
+{
+    background-color:#EEE;
+    padding:4px;
+}
